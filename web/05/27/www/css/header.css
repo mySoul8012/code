@@ -1,0 +1,76 @@
+/*头部样式*/
+* {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;
+	line-height:35px;
+	letter-spacing:4px;
+	text-indent:0px;
+}
+body {
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+.header {
+	width:100%;
+	height:auto;
+	background:#F5F5F5;
+}
+.title {
+	width:75%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.title-image_logo {
+	width:40%;
+	display:inline;
+	padding: 14px 16px;
+	margin: 14px 16px;
+}
+.title-logo {
+	font:900;
+	color:#7B68EE;
+	display:inline-block;
+	font-size:30px;
+	padding: 14px 10px;
+	margin: 14px 16px;
+	display: inline-block;
+	text-align: center;
+	position:relative;
+	left:10px;
+	top:-40px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7B68EE;
+}
+nav li {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+nav li:last-child {
+    border-right: none;
+}
+nav li a:hover {
+    background-color: #87CEFA;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 9px 16px;
+    text-decoration: none;
+}
+.center {
+	overflow: hidden;
+	margin-left:11%;
+	margin-right:auto;
+}

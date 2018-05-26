@@ -1,0 +1,116 @@
+/*重要通知部分*/
+.width {
+	width:60%;
+	position:relative;
+	left:20%;
+	top:50px;
+	overflow: hidden;
+}
+.tubiao {
+	float:left;
+	overflow: hidden;
+}
+.xiaobiaoti {
+	float:left;
+	position:relative;
+	left:10px;
+	top:0px;
+}
+.more {
+	float:right;
+}
+.henxian {
+	display: inline-block;
+	background:#7B68EE;
+	width:90%;
+	height:2px;
+	margin-left:2%;
+	margin-right:auto;
+}
+.tongzhineir {
+	position:relative;
+	left:5%;
+	top:0px;
+}
+.div-width{
+	height:60px;
+	overflow: hidden;
+}
+/*页左侧导航部分*/
+.float-right{
+	float:right;
+	position:relative;
+	left:-15%;
+	top:0px;
+}
+.float-left {
+	float:left;
+	position:relative;
+	left:15%;
+	top:0px;
+}
+/*页面右边链接*/
+.nianjie {
+	overflow: hidden;
+}
+select{
+	width:100%;
+	height:30px;
+}
+/*整个右边*/
+.zhenge {
+	overflow: hidden;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.float-left-01 {
+	float:left;
+	width:50%;
+	position:relative;
+	left:0%;
+	top:0px;
+}
+.float-right-01 {
+	float:right;
+	width:50%;
+	position:relative;
+	left:0%;
+	top:0px;
+}
+.img {
+	width:95%;
+}
+.width-01 {
+	width:95%;
+	position:relative;
+	left:-10%;
+	top:50px;
+	overflow: hidden;
+}
+.width-02 {
+	float:left;
+	width:35%;
+	position:relative;
+	left:-10%;
+	top:100px;
+}
+.width-03 {
+	float:right;
+	width:35%;
+	position:relative;
+	left:-25%;
+	top:100px;
+}
+.henxian-1 {
+	display: inline-block;
+	background:#7B68EE;
+	width:100%;
+	height:2px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.foot{
+	text-align:center;
+}
+
