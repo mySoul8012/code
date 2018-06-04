@@ -10,7 +10,7 @@ int put(int number[], int i);	// 输出数组
 int main()
 {
 	int number[10];
-	int max, min;
+	int maxSub, minSub;
 	int sub1, sub2;
 	
 	printf("请输入10个整数");
@@ -19,9 +19,11 @@ int main()
 	
 	output(number, 9);	// 对于整形数组的输出
 	
-	max_sub(number, 9, &max);	// 对应的最大项的下标
+	max_sub(number, 9, &maxSub);	// 对应的最大项的下标
+	printf("最大项的下标为%d\n", maxSub);
 	
-	min_sub(number, 9, &min);		// 对应的最小项的下标
+	min_sub(number, 9, &minSub);		// 对应的最小项的下标
+	printf("最小项的下标为%d\n", minSub);
 	
 	printf("请输入要交换的两个元素\n");
 	scanf("%d %d", &sub1, &sub2);
