@@ -1,0 +1,178 @@
+/*基础样式*/
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:幼圆;
+	text-decoration:none;
+	color:#000000;
+	list-style:none;
+}
+body {
+	width:100%;
+	background-image:url(http://news.culr.edu.cn/ggglx/images/bg.jpg);
+	background-position:center top;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+}
+/*头部样式*/
+header {
+	width:100%;
+}
+	.title {
+		opacity:0.5;
+		width:65%;
+		background:#87CEFA;
+		margin:2% auto;
+		padding:2% 2%;
+		border-radius:25px;
+	}
+		.title img {
+			width:40%;
+		}
+		.title h1 {
+			width:30%;
+			float:right;
+			display:block;
+			margin:2% 10%;
+		}
+	nav {
+		width:65%;
+		margin:2% auto;
+		padding:2% 2%;
+	}
+		nav ul {
+			list-style:none;
+			overflow:hidden;
+			background:#6495ED;
+			border-radius:25px;
+		}
+			nav ul li {
+				margin:2% 2%;
+				float:left;
+				width:7%;
+			}
+				nav ul li a {
+					display:block;
+					color:#F0F8FF;
+					padding:0 1% 0 1%;
+				}
+				nav ul li a:hover {
+					color:#6A5ACD;
+				}
+/*页面中部样式*/
+main {
+	width:100%;
+}
+main:after {
+	height:0:
+	content:"";
+	clear:both;
+	display:block;
+}
+.flow-chart {
+	display:block;
+	width:65%;
+	margin:2% auto;
+	border-radius:25px;
+}
+/*系部新闻通知公告样式*/
+.news-components {
+	width:45%;
+	float:left;
+	margin:2% 0 0 17%;
+	border:1px solid #DCDCDC;
+	border-top:3px solid #6495ED;
+	border-radius:25px;
+}
+.news-components:after {
+	height:0;
+	content:"";
+	clear:both;
+	display:block;
+}
+	.header {
+		width:100%;
+		overflow:hidden;
+		border-bottom:1px solid #DCDCDC;
+	}
+		.header h2 {
+			text-align:center;
+			padding:1% 2%;
+			float:left;
+			display:block;
+			width:30%;
+			}
+			.line {
+				width:20%;
+				border-bottom:2px solid blue;
+				margin:0 2%;
+				position:relative;
+				left:2px;
+				top:0px;
+			}
+			.tiao-line {
+				width:20%;
+				border-bottom:2px solid blue;
+				margin:0 2%;
+				position:relative;
+				left:2px;
+				top:5px;
+			}
+			.header h3 {
+				float:right;
+				display:block;
+				margin:2% 3%;
+			}
+			.header a:hover {
+				color:blue;
+			}
+		.news-conten {
+			margin:3% 3%;
+		}
+			.news-conten li {
+				margin:2% 0 2% 2%;
+			}
+			.news-conten li a:hover{
+				color:blue;
+			}
+					.news-conten li a span {
+						float:right;
+					}
+					.news-conten li a span:hover {
+						float:right;
+						color:blue;
+					}
+/*就业推荐 常用下载样式*/
+.Employment-components {
+	width:20%;
+	float:left;
+	border:1px solid #DCDCDC;
+	border-top:3px solid #6495ED;
+	border-radius:25px;
+	margin:2% 0 0 2%;
+}
+.Employment-components:after {
+	height:0;
+	content:"";
+	clear:both;
+	display:block;
+}
+.clear-float {
+	overflow:hidden;
+}
+/*微信公众号组件*/
+.weichat {
+	width:20%;
+	margin:2% 3%;
+}
+/*尾部样式*/
+footer {
+	margin:2% 0 0 0;
+	padding:2%;
+	background:#6495ED;
+}
+footer p {
+	margin:3%;
+	text-align:center;
+}
