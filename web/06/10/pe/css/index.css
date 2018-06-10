@@ -1,0 +1,190 @@
+/*基础样式*/
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:幼圆;
+	color:#000000;
+	list-style:none;
+	text-decoration:none;
+}
+body {
+	width:100%;
+	background:#FFFAFA;
+}
+.clear-float:after {
+	height:0;
+	content:"";
+	clear:both;
+	display:block;
+}
+/*头部样式*/
+.header {
+	background:#6495ED;
+	width:100%;
+}
+	.logo-1 {
+		width:30%;
+		margin:2% 0 0 15%;
+		border-radius:25px;
+	}
+	.logo-2 {
+		width:10%;
+		margin:2% 0 0 1%;
+		border-radius:25px;
+	}
+	.search {
+		padding:9px;
+		float:right;
+		width:17%;
+		margin:4% 15% 0 0;
+		display:inline-block;
+		background:#FFFAFA;
+		border-radius:15px;
+	}
+		.search-text {
+			width:90%;
+			border:0;
+			background:#FFFAFA;
+		}
+		.search-submit {
+			display:inline-block;
+			margin:2px;
+		}
+	nav {
+		width:100%;
+		margin:3% 0 0 0;
+	}
+		nav ul {
+			list-style:none;
+			overflow:hidden;
+			background:#6A5ACD;
+		}
+			nav ul li {
+				margin:1% 1%;
+				float:left;
+				width:7%;
+			}
+				nav ul li a {
+					display:block;
+					color:#F0F8FF;
+					padding:0 1% 0 1%;
+				}
+				nav ul li a:hover {
+					color:#DCDCDC;
+				}
+/*页中部样式*/
+.take-turns {
+	display:block;
+	margin:2% auto 0 auto;
+	width:80%;
+	border-radius:25px;
+}
+/*新闻*/
+.News-components {
+	width:15%;
+	margin:2% 0 0 10%;
+	border:1px solid #DCDCDC;
+	display:inline-block;
+	float:left;
+}
+	.news-header {
+		width:100%;
+		border-bottom:1px solid #DCDCDC;
+		padding:3%;
+	}
+		.news-title {
+			background:#90EE90;
+			display:inline-block;
+			width:50%;
+			padding:2%;
+			border-radius:20px;
+		}
+		.news-more {
+			float:right;
+			display:inline-block;
+			margin:3% 6% 0 0;
+		}
+	.section {
+		padding:5%;
+	}
+		.section li{
+			padding:3%;
+		}
+		.section a {
+			padding:2%;
+		}
+/*通知*/
+.Notification-components {
+	width:15%;
+	margin:2% 0% 0 4%;
+	border:1px solid #DCDCDC;
+	display:inline-block;
+	float:left;
+}
+/*下一个通知*/
+.last-componts {
+	width:15%;
+	margin:2% 0% 0 4%;
+	border:1px solid #DCDCDC;
+	display:block;
+	float:left;
+}
+/*体育查询*/
+.pe-componts {
+	width:23%;
+	margin:2% 0 0 2%;
+	float:left;
+	border:1px solid #DCDCDC;
+	padding:1%;
+}
+	.pe-title {
+		background:#FFDAB9;
+		border-radius:25px;
+		text-align:center;
+		padding:2%;
+	}
+	.pe-form {
+		margin:10%;
+	}
+		.form-text{
+			width:90%;
+			padding:2%;
+			margin:3% 0;
+		}
+			.label {
+				width:40%;
+				display:inline-block;
+				font-size:23px;
+			}
+			.form-text input {
+				width:50%;
+				padding:3%;
+			}
+			.last-input {
+				padding:300px;
+				width:100%;
+				display:block;
+				background:#9370DB;
+			}
+/*尾部*/
+.footer {
+	margin:2% 0 0 0;
+	background:#6495ED;
+}
+	.footer header {
+		background:#7B68EE;
+		padding:1%;
+	}
+		.footer header h3 {
+			display:block;
+			margin:0 2% 0 0;
+			color:#FFFAFA;
+		}
+	.footer div {
+		text-align:center;
+		padding:2%;
+	}
+		.footer div p {
+			padding:2%;
+		}
