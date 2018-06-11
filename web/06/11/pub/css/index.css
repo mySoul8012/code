@@ -1,0 +1,133 @@
+/*基础样式*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:0;
+	font-size:14px;
+	color:#000000;
+}
+body {
+	width:100%;
+	background:url(http://news.culr.edu.cn/pub//images/bg.jpg) repeat-x;
+}
+.clear-float {
+	overflow:hidden;
+}
+/头部/
+.title-header {
+	width:100%;
+	display:block;
+}
+	.title-header img {
+		width:70%;
+		display:block;
+		margin:auto auto;
+	}
+	.title-header nav {
+		width:70%;
+		margin:auto auto 0 auto;
+	}
+		.title-header nav ul {
+			overflow:hidden;
+			background:#F08080;
+		}
+			.title-header nav ul li{
+				float:left;
+				border-right:1px solid #BBB;
+			}
+			.title-header nav ul li:last-child {
+				border-right:0;
+			}
+				.title-header nav ul li a{
+					display:block;
+					color:white;
+					text-align:center;
+					padding:14px 16px;
+				}
+				.title-header nav ul li a:hover {
+					background:#FFBC61;
+				}
+				.title-header nav ul li a:last-child {
+					float:right;
+				} 
+/*页面部门新闻公告基础样式*/
+.text-header {
+	background:#F08080;
+	margin:3px;
+	padding:1%;
+	overflow:hidden;
+}
+	.text-header h2:first-child {
+		float:left;
+		display:block;
+	}
+	.text-header h2:last-child {
+		float:right;
+		display:block;
+	}
+.section {
+	padding:0;
+}
+	.section img {
+		width:40%;
+		display:block;
+		float:left;
+		margin:1%;
+	}
+	.section ul {
+		text-align:left;
+	}
+		.section ul li {
+			width:55%;
+			float:left;
+			margin:1%;
+			display:block;
+			border-bottom:1px dashed;
+		}
+			.section ul li span {
+				float:right;
+				display:
+			}
+	
+/*新闻模块*/
+.news {
+	width:50%;
+	float:left;
+	display:block;
+	margin:3% 0 0 15%;
+	border:1px solid #000000;
+}
+/*通知模块*/
+.notice {
+	width:20%;
+	float:left;
+	display:block;
+	margin:3% 0 0 1%;
+	border:1px solid #000000;
+}
+	.notice img {
+		margin:2% 0 0 0;
+	}
+/*图片模块*/
+.image {
+	width:70%;
+	display:block;
+	margin:1% auto 0 auto;
+	border:1px solid #000000;
+	overflow:hidden;
+}
+	.image .section {
+		overflow:hidden;
+	}
+		.image .section img {
+			width:23%;
+		}
+/*尾部样式*/
+.footer {
+	background:url(http://news.culr.edu.cn/pub//images/footer.png) no-repeat;
+	margin:2% auto 0 16%;
+	padding:5%;
+	width:65%;
+}
