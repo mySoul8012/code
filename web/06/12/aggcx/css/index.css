@@ -1,0 +1,165 @@
+/*基础样式*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	border:0;
+	font-size:14px;
+	color:#000000;
+}
+body {
+	width:100%;
+	background:#F5F5F5;
+}
+.clear-float {
+	overflow:hidden;
+}
+/*头部样式*/
+.title-header {
+	width:100%;
+	overflow:hidden;
+}
+	.title-header img {
+		width:100%;
+	}
+	.title-header nav {
+		width:100%;
+		margin-top:-1%;
+		background:#4169E1;
+		border-bottom:3px solid #C0C0C0;
+	}
+		.title-header nav ul {
+			overflow:hidden;
+			margin:auto 24%;
+
+		}
+			.title-header nav ul li{
+				float:left;
+				border-right:1px solid #BBB;
+				padding-top:1%;
+				display:block;
+			}
+			.title-header nav ul li:last-child {
+				border-right:0;
+			}
+				.title-header nav ul li a{
+					display:block;
+					color:white;
+					text-align:center;
+					padding:14px 16px;
+				}
+				.title-header nav ul li a:hover {
+					background:#FFBC61;
+				}
+				.title-header nav ul li a:last-child {
+					float:right;
+				} 
+/*导航栏下部导航*/
+.bootom-nav {
+	width:70%;
+	margin:1% auto 0 auto;
+	overflow:hidden;
+}
+	.bootom-nav header h2 {
+		display:inline-block;
+		float:left;
+		text-align:center;
+		padding:1%;
+	}
+	.bootom-nav header form {
+		float:right;
+		padding:1%;
+	}
+		.bootom-nav header form input {
+			padding:1%;
+		}
+/*页首轮播图*/
+.img {
+	width:65%;
+	display:block;
+	margin:1% auto 0 auto;
+	border:20px solid #F0F8FF;
+}
+.header {
+		margin:0 0 1% 0;
+		border-bottom:3px solid #778899;
+		overflow:hidden;
+}
+	.header h2 {
+		float:left;
+		margin:0 0 1% 0;
+	}
+	.header h3 {
+		float:right;
+		margin:0 0 1% 0;
+	}
+.section {
+	overflow:hidden;
+}
+	.section img {
+		width:50%;
+		float:left;
+		display:block;
+		margin:0 3% 0 0;
+	}
+	.section ul{
+		display:block;
+		margin:0 0 0 3%;
+	}
+		.section ul li{
+				margin:2% 0 0 0;
+		}
+			.section ul li span{
+				float:right;
+				display:block;
+			}
+/*新闻*/
+.news {
+	width:60%;
+	overflow:hidden;
+	margin:auto auto;
+}
+/*通知公告*/
+.notice-right {
+	width:20%;
+	display:block;
+	float:left;
+	margin:1% 0 0 15%;
+}
+.notice-center {
+	width:20%;
+	display:block;
+	float:left;
+	margin:1% 0 0 2%;
+}
+.notice-left {
+	width:20%;
+	display:block;
+	float:left;
+	margin:1% 0 0 2%;
+}
+/*页底部图片*/
+.footer-img {
+	overflow:hidden;
+	margin:1% auto;
+	width:90%;
+}
+	.footer-img img {
+		float:left;
+		display:block;
+		margin:1%;
+		width:10%;
+	}
+/*页底部*/
+.footer {
+	margin-top:1%;
+	background:#4169E1;
+	padding:2%;
+	text-align:center;
+}
+	.footer p {
+		color:#FFFAFA;
+		line-height:200%;
+	}
+	
