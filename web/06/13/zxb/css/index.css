@@ -1,0 +1,171 @@
+/*清除浏览器默认样式*/
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:13px;
+	font-family:arial;
+	list-style:none;
+	line-height:1.5;
+	text-decoration:none;
+}
+body {
+	width:100%;
+	min-width:1000px;
+	background:#F5F5F5;
+}
+
+/*头部*/
+.header {
+	width:950px;
+	margin:0 auto;
+}
+	.header .head {
+		width:100%;
+	}
+		.header .head img {
+			width:100%;
+			display:inline-block;
+			float:left;
+			z-index:1;
+		}
+		.header .head form {
+			float:right;
+			display:block;
+			z-index:2;
+			margin:-5% 4% 0 0;
+			border:2px solid #FFFFFF;
+			background:#FFFFFF;
+		}
+		.header .head form:hover, form:focus {
+			float:right;
+			display:block;
+			z-index:2;
+			margin:-5% 4% 0 0;
+			border:2px solid #87CEFA;
+			background:#FFFFFF;
+		}
+			.header .head form input:hover, input:focus {
+				background:0;
+				margin:0;
+				padding:0;
+			}
+			.header .head form input:last-child {
+				display:inline-block;
+				margin:2px 0 0 0;
+			}
+			.header .head form input:first-child {
+				display:inline-block;
+				margin:-2px 2px 0 0;
+			}
+	.header nav {
+			clear:both;
+			margin:0 auto;
+			text-align:center;
+		}
+			.header nav ul {
+				list-style:none;
+				overflow:hidden;
+				background:#6495ED;
+			}
+				.header nav ul li {
+					margin:1% 1%;
+					display:inline-block;
+					width:7%;
+				}
+					.header nav ul li a {
+						display:block;
+						color:#F0F8FF;
+						padding:0 1% 0 1%;
+					}
+					.header nav ul li a:hover {
+						color:#6A5ACD;
+					}
+.body {
+	margin:auto auto;
+	overflow:hidden;
+	width:950px;
+	background:#fff;
+}
+.left {
+	text-align:left;
+	float:left;
+	display:inline-block;
+	width:40%;
+	padding:2% 2% 2% 0;
+}
+	.left img {
+		width:100%;
+	}
+
+.right {
+	width:56%;
+	float:left;
+	padding:2% 0 0 1%;
+}
+	.right-1 {
+		overflow:hidden;
+		border:1px solid #DCDCDC;
+		padding:2%;
+		min-width:90%;
+	}
+		header {
+			display:block;
+			padding:0%;
+			border-bottom:2px solid #DCDCDC;
+			z-index:-1;
+			float:left;
+			width:100%;
+		}
+			header h2 {
+				float:left;
+				display:block;
+				padding:0 0 1% 2%;
+				margin:0 0 -1px 0;
+				z-index:99;
+				border-bottom:2px solid #7B68EE;
+				border-left:3px solid #C71585;
+			}
+			header h2:last-child {
+				float:right;
+				padding:0 2% 1% 2%;
+				border:0;
+			}
+			.ul {
+				padding:2% 0 0 1%;
+				clear:both;
+			}
+				.ul li  {
+					padding:0 0 1% 0;
+				}
+					.ul li a span {
+						float:right;
+					}
+	.right-2 {
+		margin:2% 0 0 0;
+		overflow:hidden;
+		border:1px solid #DCDCDC;
+		padding:2%;
+		width:45%;
+		float:left;
+	}
+	.right-3 {
+		margin:2% 0 0 0;
+		overflow:hidden;
+		border:1px solid #DCDCDC;
+		padding:2%;
+		width:45%;
+		float:right;
+		display:block;
+	}
+/*尾部*/
+.footer {
+	margin:auto auto;
+	overflow:hidden;
+	width:950px;
+	text-align:center;
+	background:url(http://news.culr.edu.cn/zxb//images/footer.jpg) no-repeat;
+}
+	.footer {
+		padding:1%;
+	}
