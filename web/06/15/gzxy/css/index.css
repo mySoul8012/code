@@ -1,0 +1,285 @@
+/*基础样式*/
+* {
+	padding:0;
+	margin:0;
+	border:0;
+	font-family:arial;
+	font-size:14px;
+	list-style:none;
+	line-height:1.5;
+	text-decoration:none;
+	color:#000000;
+	letter-spacing:2px;
+}
+/*防止父级盒子塌陷*/
+.clear-float {
+	overflow:hidden;
+}
+body {
+	min-width:1120px;
+	width:100%;
+	background:#DCDCDC;
+}
+.main {
+	width:71%;
+	min-width:1100px;
+	margin:0 auto 0;
+	background:#FFFFFF;
+	padding:2% 2% 2% 2%;
+	overflow:hidden;
+}
+/*头部样式*/
+.title-header {
+	width:100%;
+	min-width:700px;
+	margin:0 0 0;
+	padding:0;
+	border-bottom:0;
+	overflow:hidden;
+}
+	.title-header img {
+		float:left;
+		margin:0 0 1% 0;
+	}
+	.title-header form {
+		float:right;
+		display:block;
+		width:19%;
+		border:1px solid #DCDCDC;
+		overflow:hidden;
+		margin:2% 0 0 0;
+		z-index:1;
+	}
+		.title-header form input:first-child {
+			margin:0;
+			width:80%;
+			height:100%;
+			float:left;
+			padding:1%;
+			color:#DCDCDC;
+		}
+		.title-header form input:last-child {
+			width:15%;
+			margin:0 0 0 0;
+			float:right;
+			height:100%;
+			background:url(http://news.culr.edu.cn/gzxy//images/search.png) no-repeat center center;
+		}
+	.title-header nav {
+		clear:both;
+	}
+		.title-header nav ul {
+			background:#4169E1;
+			padding:1%;
+			text-align:center;
+		}
+			.title-header nav ul li {
+				display:inline-block;
+				padding:0 3% 0 3%;
+			}
+				.title-header nav ul li a {
+					color:#FFFFFF;
+				}
+/*内容*/
+.homepage {
+	width:100%;
+	
+}
+/*内容基础样式*/
+header {
+		border-bottom:2px solid #DCDCDC;
+		padding-bottom:1%;
+		overflow:hidden;
+		font-size:20px;
+		color:#DCDCDC;
+		clear:both;
+}
+		header h2 {
+			float:left;
+			padding:0 0 0 1%;
+			border-left:9px solid #4169E1;
+		}
+		header h3 {
+			float:right;
+		}
+/*内容的图标样式*/
+.icon-download {
+	background:url(http://news.culr.edu.cn/gzxy//images/li01.png);
+}
+.icon-international {
+	background:url(http://news.culr.edu.cn/gzxy//images/li02.png);
+}
+.icon-students {
+	background:url(http://news.culr.edu.cn/gzxy//images/li03.png);
+}
+/*动态*/
+.dynamic {
+	width:100%;
+	margin:1% 0 0 0;
+}
+	.dynamic .section {
+	margin-top:1%;
+	overflow:hidden;
+	}
+		.dynamic .section img {
+			width:35%;
+			float:left;
+		}
+		.dynamic .section ul {
+			margin:0 0 0 2%;
+			width:63%;
+			float:left;
+			display:block;
+		}
+			.dynamic .section ul li {
+				padding:1% 0 0 0;
+			}
+				.dynamic .section ul li span {
+					float:right;
+				}
+/*通知公告*/
+.notice {
+	margin:2% 0 0 0;
+	width:70%;
+	float:left;
+}
+	.notice .section {
+		width:100%;
+		overflow:hidden;
+	}
+		.notice .section li {
+			float:left;
+			width:40%;
+			margin:2% 10% 0 0;
+			display:block;
+			border-bottom:1px dashed #DCDCDC;
+			padding:2%;
+			overflow:hidden;
+		}
+		.notice .section li:nth-child(2), .notice .section li:nth-child(4){
+			margin:2% 0 0 0;
+		}
+			.notice .section li h4 {
+				float:left;
+				padding:2%;
+				background:#6495ED;
+				color:#FFFFFF;
+			}
+			.notice .section li h5 {
+				float:left;
+				padding:2%;
+				background:#DCDCDC;
+				color:#6495ED;
+			}
+			.notice .section a {
+				display:block;
+				clear:both;
+				padding:3% 0 0 0;
+			}
+/*快速链接*/
+.fast-link {
+	margin:2% 0 0 2%;
+	float:left;
+	display:block;
+	width:28%;
+}
+	.fast-link header {
+		padding:1.5%;
+	}
+	.fast-link h2 {
+		padding:0 0 0 2.5%;
+	}
+	.fast-link .section {
+		padding:2% 0 0 0;
+	}
+		.fast-link .section li {
+			margin:6% 0 0 0;
+			padding:8% 30% 8% 0;
+			height:10%;
+			display:block;
+			text-align:center;
+		}
+		.fast-link .section li:first-child {
+			background:#6495ED;
+		}
+		.fast-link .section li:nth-child(2) {
+			background:#FF7F50;
+		}
+		.fast-link .section li:last-child {
+			background:#66CDAA;
+		}
+			.fast-link .section li div {
+				height:30px;
+				width:40px;
+				display:inline-block;
+				float:left;
+				margin-left:40%;
+			}
+			.fast-link .section li h4 a {
+				color:#FFFFFF;
+			}
+/*学生风采*/
+.elegant {
+	margin:2% 0 0 0;
+	overflow:hidden;
+}
+	.elegant .photo-block {
+		overflow:hidden;
+		width:100%;
+		display:block;
+		padding:2% 0 0 0;
+	}
+		.elegant .photo-block .img {
+			float:left;
+			margin:7% 0 0 0;
+		}
+		.elegant .photo-block .img:last-child {
+			float:right;
+		}
+			.elegant .photo-block .photo-roll {
+				width:95%;
+				overflow:hidden;
+				float:left;
+			}
+				.elegant .photo-block .photo-roll .div {
+					float:left;
+					width:21%;
+					background:#DCDCDC;
+					padding:1%;
+					margin:0 1% 0 1%;
+				}
+					.elegant .photo-block .photo-roll .div img {
+						width:100%;
+					}
+					.elegant .photo-block .photo-roll .div h4 {
+						text-align:center;
+					}
+/*尾部样式*/
+footer {
+	background:#483D8D;
+	width:71%;
+	min-width:1100px;
+	overflow:hidden;
+	margin:0 auto 0;
+	padding:2%;
+	text-align:center;
+}
+	footer p {
+		margin:2% 0 0 10%;
+		display:inline-block;
+		color:#FFFFFF;
+	}
+	footer div {
+		float:right;
+		margin:0 2% 0 0;
+		overflow:hidden;
+		width:18%;
+	}
+		footer div img {
+			float:left;
+		}
+		footer div h4 {
+			float:right;
+			color:#FFFFFF;
+			margin:0 0 0 2%;
+		}
