@@ -1,0 +1,25 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:arial;
+	font-size:13px;
+}
+.test1 {
+	width:300px;
+	height:300px;
+	background:#DCDCDC;
+	visibility:hidden;
+	position:absolute;
+}
+.test3:hover .test1 {
+	visibility:visible;
+}
+.test2 {
+	width:200px;
+	background:#FFF000;
+}
+.test3 {
+	background:#00FFF0;
+	width:600px;
+}
