@@ -17,11 +17,19 @@ body {
 	width:20em;
 	margin:30px auto;
 	position:relative;
+	height:2em;
 }
-.test1:hover .test2 {
+.test1:hover .test2{
 	visibility:visible;
 	position:absolute;
-	box-shadow:-1px 13px 50px 0px #0000003b;
+	box-shadow:3px 3px 20px 2px #9E9E9E ;
+	background:#FFFFFF;
+	z-index:1;
+}
+test2:hover {
+	visibility:visible;
+	position:absolute;
+	box-shadow:3px 3px 20px 2px #9E9E9E ;
 	background:#FFFFFF;
 	z-index:1;
 }
