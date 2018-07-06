@@ -22,17 +22,11 @@ body {
 .test1:hover .test2{
 	visibility:visible;
 	position:absolute;
-	box-shadow:3px 3px 20px 2px #9E9E9E ;
+	box-shadow:4px 8px 20px 2px #9E9E9E;
 	background:#FFFFFF;
 	z-index:1;
 }
-test2:hover {
-	visibility:visible;
-	position:absolute;
-	box-shadow:3px 3px 20px 2px #9E9E9E ;
-	background:#FFFFFF;
-	z-index:1;
-}
+
 
 .test2 {
 	position:absolute;
