@@ -1,0 +1,31 @@
+* {
+	font-family:Arial;
+	list-style:none;
+	text-decoration:none;
+	line-height:1.5em;
+	font-size:16px;
+	color:#000000;
+	margin:0;
+	padding:0;
+	text-align:center;
+	letter-spacing:0.1em;
+}
+body {
+	
+}
+.test1 {
+	width:300px;
+	margin:2.9em auto;
+	border:2px solid #DCDCDC;
+}
+.test1:hover > a > img {
+	opacity:0.7;
+}
+	.test1 > a > img {
+		width:100%;
+		height:auto;
+	}
+	.test1 > span {
+		line-height:4em;
+	}
+
