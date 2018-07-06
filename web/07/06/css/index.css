@@ -1,0 +1,38 @@
+* {
+	font-family:Arial;
+	list-style:none;
+	text-decoration:none;
+	line-height:1.5em;
+	font-size:16px;
+	color:#000000;
+	margin:0;
+	padding:0;
+	text-align:center;
+	letter-spacing:0.5em;
+}
+body {
+}
+.test1 {
+	margin:20px 0 20px 0;
+	width:20em;
+	margin:30px auto;
+	position:relative;
+}
+.test1:hover .test2 {
+	visibility:visible;
+	position:absolute;
+	box-shadow:-1px 13px 50px 0px #0000003b;
+	background:#FFFFFF;
+	z-index:1;
+}
+
+.test2 {
+	position:absolute;
+	top:0;
+	left:1em;
+	visibility:hidden;
+	height:auto;
+	width:70%;
+	margin:30px auto;
+	padding:10%;
+}

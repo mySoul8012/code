@@ -1,21 +1,19 @@
 #include <stdio.h>
-void string();
  
 int main()
 {
-    printf("请输入一个字符串\n");
-    string();
-    printf("\n");
-    return 0;
-}
+   FILE *fp = NULL;
+   char buff[255];
  
-void string()
-{
-    char c;
-    scanf("%c", &c);
-    if (c != '\n')
-    {
-        string();
-        printf("%c", c);
-    }
+   fp = fopen("c:\\temp\\test.txt", "r");
+   fscanf(fp, "%s", buff);
+   printf("1: %s\n", buff );
+ 
+   fgets(buff, 255, (FILE*)fp);
+   printf("2: %s\n", buff );
+   
+   fgets(buff, 255, (FILE*)fp);
+   printf("3: %s\n", buff );
+   fclose(fp);
+ 
 }
