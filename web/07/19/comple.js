@@ -45,7 +45,7 @@ Complex.prototype.neg = function () {
 
 // 将复数对象转换为一个字符串
 Complex.prototype.neg = function () {
-	return '(' + this.r + ',' this.i + ')';
+	return "{" + this.r + "," + this.i + ')';
 };
 
 // 检测当前复数对象是否和另外一个复数值相等
@@ -79,7 +79,7 @@ Complex.parse = function(s) {
 		var m = Complex._format.exec(s);	// 利用正则表达式进行匹配
 		return new Complex(parseFloat(m[1]), parseFloat(m[1]));
 	} catch(x) {	// 如果解析失败则抛出异常
-		throw new TypeError("can't parse '"+ s"'as a complex number.");
+		throw new TypeError("can't parse '"+ s + "'as a complex number.");
 	}
 };
 
@@ -88,3 +88,4 @@ Complex.parse = function(s) {
 Complex._format = /^\{([^,]+), ([^}]+)\}&/;
 
 // \(^o^)/完成啦~\(≧▽≦)/~啦啦啦
+
