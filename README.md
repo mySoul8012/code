@@ -1,4 +1,4 @@
-# 这是我的日常的一些小代码
+# welcome ~
 ## practice
 Practice为日常的联系代码，通过时间进行排列
 ## codeBase
