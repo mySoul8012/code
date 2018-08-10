@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	position:relative;
+}
+div {
+	width:400px;
+	height:400px;
+	position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    background:#698771;
+	border-radius:1000px;
+	animation:myFrames 5s cubic-bezier(0.785, 0.135, 0.15, 0.86) .5s infinite alternate both;
+}
+div div {
+	width:40px;
+	height:40px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	background:#e8e3da;
+	animation-name:myCenter;
+}
+
+/*关键帧*/
+@keyframes myFrames {
+	from {
+		left:0;
+	}
+
+	to {
+		left:70%;
+	}
+}
+
+@keyframes myCenter {
+	from {
+		left:0;
+	}
+
+	to {
+		left:0;
+	}
+}
